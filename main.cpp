@@ -173,9 +173,6 @@ int main()
     cout<<"La suma total es "<<sumt;
 
 
-
-
-
     return 0;
 }
 
