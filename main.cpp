@@ -69,7 +69,7 @@ int main()
     cout<<"Ingrese un numero: ";
     long long limit1;
     cin>>limit1;
-    long long m=limit1/10000000;
+    long long m=limit1-1;
     long long div1=2;
     long long pal1=0;
     bool nopri=false;
