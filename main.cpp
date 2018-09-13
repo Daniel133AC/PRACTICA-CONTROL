@@ -17,7 +17,7 @@ int main()
     cout<<endl<<endl;
 
     cout<<"Ejercicio 1.2"<<endl;
-    cout<<"Límite: ";
+    cout<<"LÃ­mite: ";
     int n;
     cin>>n;
     for(int x=1;x<=n;++x){
@@ -29,7 +29,7 @@ int main()
     cout<<endl<<endl;
 
     cout<<"Ejercicio 1.3"<<endl;
-    cout<<"Límite: ";
+    cout<<"LÃ­mite: ";
     int limit;
     cin>>limit;
     int i=2;
@@ -69,7 +69,7 @@ int main()
     cout<<"Ingrese un numero: ";
     long long limit1;
     cin>>limit1;
-    long long m=limit1-1;
+    long long m=limit1/10000000;
     long long div1=2;
     long long pal1=0;
     bool nopri=false;
@@ -81,7 +81,7 @@ int main()
             div1++;}
         if(pal1==0&&limit1%m==0){
             nopri=true;
-            cout<<"Su máximo factor primo es "<<m;}else{nopri=false;}
+            cout<<"Su mÃ¡ximo factor primo es "<<m;}else{nopri=false;}
         div1=2;
         pal1=0;
         m=m-1;
